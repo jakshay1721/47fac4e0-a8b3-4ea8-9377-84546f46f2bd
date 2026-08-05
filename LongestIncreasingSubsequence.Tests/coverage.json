@@ -1,0 +1,145 @@
+{
+  "LongestIncreasingSubsequence.dll": {
+    "/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/LongestIncreasingSubsequence/LongestIncreasingSubsequence.cs": {
+      "LongestIncreasingSubsequence.SequenceService": {
+        "System.String LongestIncreasingSubsequence.SequenceService::GetLongestIncreasingSubsequence(System.String)": {
+          "Lines": {
+            "6": 4,
+            "7": 4,
+            "8": 1,
+            "10": 3,
+            "11": 3,
+            "12": 3,
+            "14": 3,
+            "15": 0,
+            "17": 3,
+            "18": 3,
+            "20": 3,
+            "21": 3,
+            "23": 4118,
+            "24": 2056,
+            "25": 2056,
+            "26": 1028,
+            "27": 1028,
+            "28": 1028,
+            "30": 1028,
+            "32": 1028,
+            "33": 5,
+            "34": 5,
+            "35": 5,
+            "36": 5,
+            "37": 1028,
+            "38": 1028,
+            "39": 1028,
+            "40": 2056,
+            "42": 3,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "48": 3,
+            "49": 4
+          },
+          "Branches": [
+            {
+              "Line": 7,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 7,
+              "Offset": 11,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            },
+            {
+              "Line": 14,
+              "Offset": 81,
+              "EndOffset": 83,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 14,
+              "Offset": 81,
+              "EndOffset": 95,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 3
+            },
+            {
+              "Line": 23,
+              "Offset": 179,
+              "EndOffset": 109,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 2056
+            },
+            {
+              "Line": 25,
+              "Offset": 126,
+              "EndOffset": 128,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1028
+            },
+            {
+              "Line": 25,
+              "Offset": 126,
+              "EndOffset": 136,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1028
+            },
+            {
+              "Line": 32,
+              "Offset": 145,
+              "EndOffset": 147,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 5
+            },
+            {
+              "Line": 32,
+              "Offset": 145,
+              "EndOffset": 154,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 1023
+            },
+            {
+              "Line": 23,
+              "Offset": 179,
+              "EndOffset": 181,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 3
+            },
+            {
+              "Line": 42,
+              "Offset": 189,
+              "EndOffset": 191,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 42,
+              "Offset": 189,
+              "EndOffset": 198,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 3
+            }
+          ]
+        }
+      }
+    }
+  }
+}
