@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/src/LIS/LIS.csproj",
-      "projectName": "LIS",
-      "projectPath": "/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/src/LIS/LIS.csproj",
+      "projectUniqueName": "/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/LongestIncreasingSubsequence/LongestIncreasingSubsequence.csproj",
+      "projectName": "LongestIncreasingSubsequence",
+      "projectPath": "/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/LongestIncreasingSubsequence/LongestIncreasingSubsequence.csproj",
       "packagesPath": "/home/codespace/.nuget/packages/",
-      "outputPath": "/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/src/LIS/obj/",
+      "outputPath": "/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/LongestIncreasingSubsequence/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/codespace/.nuget/NuGet/NuGet.Config"

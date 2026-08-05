@@ -8,6 +8,19 @@
           "build/netstandard2.0/coverlet.collector.targets": {}
         }
       },
+      "FluentAssertions/8.10.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/FluentAssertions.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/FluentAssertions.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
       "Microsoft.CodeCoverage/17.14.1": {
         "type": "package",
         "compile": {
@@ -374,14 +387,14 @@
           "build/net8.0/xunit.runner.visualstudio.props": {}
         }
       },
-      "LIS/1.0.0": {
+      "LongestIncreasingSubsequence/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "compile": {
-          "bin/placeholder/LIS.dll": {}
+          "bin/placeholder/LongestIncreasingSubsequence.dll": {}
         },
         "runtime": {
-          "bin/placeholder/LIS.dll": {}
+          "bin/placeholder/LongestIncreasingSubsequence.dll": {}
         }
       }
     }
@@ -455,6 +468,27 @@
         "coverlet-icon.png",
         "coverlet.collector.6.0.4.nupkg.sha512",
         "coverlet.collector.nuspec"
+      ]
+    },
+    "FluentAssertions/8.10.0": {
+      "sha512": "yGvv+xp0gHFgGwhQcGoDdKIrhLhPi3zYYWWLLHPMctr+G6PWD7QH8L4wqoa5WRZquPbfSV/cP1MraI7ppAHrWw==",
+      "type": "package",
+      "path": "fluentassertions/8.10.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "FluentAssertions.png",
+        "LICENSE",
+        "fluentassertions.8.10.0.nupkg.sha512",
+        "fluentassertions.nuspec",
+        "lib/net47/FluentAssertions.dll",
+        "lib/net47/FluentAssertions.pdb",
+        "lib/net6.0/FluentAssertions.dll",
+        "lib/net6.0/FluentAssertions.pdb",
+        "lib/netstandard2.0/FluentAssertions.dll",
+        "lib/netstandard2.0/FluentAssertions.pdb",
+        "lib/netstandard2.1/FluentAssertions.dll",
+        "lib/netstandard2.1/FluentAssertions.pdb"
       ]
     },
     "Microsoft.CodeCoverage/17.14.1": {
@@ -877,15 +911,16 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "LIS/1.0.0": {
+    "LongestIncreasingSubsequence/1.0.0": {
       "type": "project",
-      "path": "../../src/LIS/LIS.csproj",
-      "msbuildProject": "../../src/LIS/LIS.csproj"
+      "path": "../LongestIncreasingSubsequence/LongestIncreasingSubsequence.csproj",
+      "msbuildProject": "../LongestIncreasingSubsequence/LongestIncreasingSubsequence.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "LIS >= 1.0.0",
+      "FluentAssertions >= 8.10.0",
+      "LongestIncreasingSubsequence >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.14.1",
       "coverlet.collector >= 6.0.4",
       "xunit >= 2.9.3",
@@ -898,11 +933,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/tests/LIS.Tests/LIS.Tests.csproj",
-      "projectName": "LIS.Tests",
-      "projectPath": "/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/tests/LIS.Tests/LIS.Tests.csproj",
+      "projectUniqueName": "/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/LongestIncreasingSubsequence.Tests/LongestIncreasingSubsequence.Tests.csproj",
+      "projectName": "LongestIncreasingSubsequence.Tests",
+      "projectPath": "/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/LongestIncreasingSubsequence.Tests/LongestIncreasingSubsequence.Tests.csproj",
       "packagesPath": "/home/codespace/.nuget/packages/",
-      "outputPath": "/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/tests/LIS.Tests/obj/",
+      "outputPath": "/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/LongestIncreasingSubsequence.Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/codespace/.nuget/NuGet/NuGet.Config"
@@ -917,8 +952,8 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/src/LIS/LIS.csproj": {
-              "projectPath": "/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/src/LIS/LIS.csproj"
+            "/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/LongestIncreasingSubsequence/LongestIncreasingSubsequence.csproj": {
+              "projectPath": "/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/LongestIncreasingSubsequence/LongestIncreasingSubsequence.csproj"
             }
           }
         }
@@ -939,6 +974,10 @@
       "net10.0": {
         "targetAlias": "net10.0",
         "dependencies": {
+          "FluentAssertions": {
+            "target": "Package",
+            "version": "[8.10.0, )"
+          },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[17.14.1, )"

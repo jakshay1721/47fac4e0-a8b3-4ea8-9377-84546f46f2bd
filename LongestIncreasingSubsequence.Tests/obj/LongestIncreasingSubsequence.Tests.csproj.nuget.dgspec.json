@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/tests/LIS.Tests/LIS.Tests.csproj": {}
+    "/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/LongestIncreasingSubsequence.Tests/LongestIncreasingSubsequence.Tests.csproj": {}
   },
   "projects": {
-    "/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/src/LIS/LIS.csproj": {
+    "/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/LongestIncreasingSubsequence.Tests/LongestIncreasingSubsequence.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/src/LIS/LIS.csproj",
-        "projectName": "LIS",
-        "projectPath": "/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/src/LIS/LIS.csproj",
+        "projectUniqueName": "/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/LongestIncreasingSubsequence.Tests/LongestIncreasingSubsequence.Tests.csproj",
+        "projectName": "LongestIncreasingSubsequence.Tests",
+        "projectPath": "/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/LongestIncreasingSubsequence.Tests/LongestIncreasingSubsequence.Tests.csproj",
         "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/src/LIS/obj/",
+        "outputPath": "/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/LongestIncreasingSubsequence.Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/codespace/.nuget/NuGet/NuGet.Config"
@@ -25,7 +25,11 @@
         "frameworks": {
           "net10.0": {
             "targetAlias": "net10.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/LongestIncreasingSubsequence/LongestIncreasingSubsequence.csproj": {
+                "projectPath": "/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/LongestIncreasingSubsequence/LongestIncreasingSubsequence.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -43,6 +47,28 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[8.10.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.14.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -337,14 +363,14 @@
         }
       }
     },
-    "/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/tests/LIS.Tests/LIS.Tests.csproj": {
+    "/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/LongestIncreasingSubsequence/LongestIncreasingSubsequence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/tests/LIS.Tests/LIS.Tests.csproj",
-        "projectName": "LIS.Tests",
-        "projectPath": "/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/tests/LIS.Tests/LIS.Tests.csproj",
+        "projectUniqueName": "/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/LongestIncreasingSubsequence/LongestIncreasingSubsequence.csproj",
+        "projectName": "LongestIncreasingSubsequence",
+        "projectPath": "/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/LongestIncreasingSubsequence/LongestIncreasingSubsequence.csproj",
         "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/tests/LIS.Tests/obj/",
+        "outputPath": "/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/LongestIncreasingSubsequence/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/codespace/.nuget/NuGet/NuGet.Config"
@@ -358,11 +384,7 @@
         "frameworks": {
           "net10.0": {
             "targetAlias": "net10.0",
-            "projectReferences": {
-              "/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/src/LIS/LIS.csproj": {
-                "projectPath": "/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/src/LIS/LIS.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -380,24 +402,6 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "dependencies": {
-            "Microsoft.NET.Test.Sdk": {
-              "target": "Package",
-              "version": "[17.14.1, )"
-            },
-            "coverlet.collector": {
-              "target": "Package",
-              "version": "[6.0.4, )"
-            },
-            "xunit": {
-              "target": "Package",
-              "version": "[2.9.3, )"
-            },
-            "xunit.runner.visualstudio": {
-              "target": "Package",
-              "version": "[3.1.4, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
