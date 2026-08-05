@@ -1,0 +1,8 @@
+/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/tests/LIS.Tests/bin/Debug/net10.0/.msCoverageSourceRootsMapping_LIS.Tests
+/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/tests/LIS.Tests/bin/Debug/net10.0/CoverletSourceRootsMapping_LIS.Tests
+/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/tests/LIS.Tests/obj/Debug/net10.0/LIS.Tests.csproj.AssemblyReference.cache
+/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/tests/LIS.Tests/obj/Debug/net10.0/LIS.Tests.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/tests/LIS.Tests/obj/Debug/net10.0/LIS.Tests.AssemblyInfoInputs.cache
+/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/tests/LIS.Tests/obj/Debug/net10.0/LIS.Tests.AssemblyInfo.cs
+/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/tests/LIS.Tests/obj/Debug/net10.0/LIS.Tests.csproj.CoreCompileInputs.cache
+/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/tests/LIS.Tests/obj/Debug/net10.0/LIS.Tests.sourcelink.json

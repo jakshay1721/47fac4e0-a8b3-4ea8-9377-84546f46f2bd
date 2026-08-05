@@ -1,0 +1,12 @@
+/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/src/LIS/bin/Debug/net10.0/LIS.deps.json
+/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/src/LIS/bin/Debug/net10.0/LIS.dll
+/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/src/LIS/bin/Debug/net10.0/LIS.pdb
+/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/src/LIS/obj/Debug/net10.0/LIS.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/src/LIS/obj/Debug/net10.0/LIS.AssemblyInfoInputs.cache
+/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/src/LIS/obj/Debug/net10.0/LIS.AssemblyInfo.cs
+/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/src/LIS/obj/Debug/net10.0/LIS.csproj.CoreCompileInputs.cache
+/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/src/LIS/obj/Debug/net10.0/LIS.sourcelink.json
+/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/src/LIS/obj/Debug/net10.0/LIS.dll
+/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/src/LIS/obj/Debug/net10.0/refint/LIS.dll
+/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/src/LIS/obj/Debug/net10.0/LIS.pdb
+/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/src/LIS/obj/Debug/net10.0/ref/LIS.dll
