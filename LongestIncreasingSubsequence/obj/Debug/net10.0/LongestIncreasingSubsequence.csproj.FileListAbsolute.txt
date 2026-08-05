@@ -1,0 +1,12 @@
+/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/LongestIncreasingSubsequence/bin/Debug/net10.0/LongestIncreasingSubsequence.deps.json
+/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/LongestIncreasingSubsequence/bin/Debug/net10.0/LongestIncreasingSubsequence.dll
+/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/LongestIncreasingSubsequence/bin/Debug/net10.0/LongestIncreasingSubsequence.pdb
+/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/LongestIncreasingSubsequence/obj/Debug/net10.0/LongestIncreasingSubsequence.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/LongestIncreasingSubsequence/obj/Debug/net10.0/LongestIncreasingSubsequence.AssemblyInfoInputs.cache
+/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/LongestIncreasingSubsequence/obj/Debug/net10.0/LongestIncreasingSubsequence.AssemblyInfo.cs
+/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/LongestIncreasingSubsequence/obj/Debug/net10.0/LongestIncreasingSubsequence.csproj.CoreCompileInputs.cache
+/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/LongestIncreasingSubsequence/obj/Debug/net10.0/LongestIncreasingSubsequence.sourcelink.json
+/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/LongestIncreasingSubsequence/obj/Debug/net10.0/LongestIncreasingSubsequence.dll
+/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/LongestIncreasingSubsequence/obj/Debug/net10.0/refint/LongestIncreasingSubsequence.dll
+/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/LongestIncreasingSubsequence/obj/Debug/net10.0/LongestIncreasingSubsequence.pdb
+/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/LongestIncreasingSubsequence/obj/Debug/net10.0/ref/LongestIncreasingSubsequence.dll
