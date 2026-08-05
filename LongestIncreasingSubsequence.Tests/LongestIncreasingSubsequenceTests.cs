@@ -61,5 +61,38 @@ namespace LongestIncreasingSubsequence.Tests
 
             result.Should().Be(expected);
         }
+
+        [Theory]
+        [InlineData(null)]
+        [InlineData("")]
+        [InlineData("   ")]
+        public void HandlesNullOrEmptyInput(string input)
+        {
+            var result = _service.GetLongestIncreasingSubsequence(input);
+            result.Should().BeEmpty();
+        }
+
+        [Fact]
+        public void HandlesSingleElement()
+        {
+            var result = _service.GetLongestIncreasingSubsequence("42");
+            result.Should().Be("42");
+        }
+
+        [Fact]
+        public void HandlesStrictlyDecreasingSequence()
+        {
+            // Verifies maxLen remains 1 and tie-breaker picks the first element
+            var result = _service.GetLongestIncreasingSubsequence("10 9 8 7");
+            result.Should().Be("10");
+        }
+
+        [Fact]
+        public void FinalSegmentIsLongest_TriggersPostLoopCheck()
+        {
+            // Ensures the condition 'currentLen > maxLen' AFTER the loop terminates is executed
+            var result = _service.GetLongestIncreasingSubsequence("10 20 1 2 3 4 5");
+            result.Should().Be("1 2 3 4 5");
+        }
     }
 }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LongestIncreasingSubsequence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+08fc75f83bb52e4f4f10156941c47aae4a09953a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c6d4f62c085a7ece988e89f23be8b0fbfa102c2")]
 [assembly: System.Reflection.AssemblyProductAttribute("LongestIncreasingSubsequence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LongestIncreasingSubsequence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
