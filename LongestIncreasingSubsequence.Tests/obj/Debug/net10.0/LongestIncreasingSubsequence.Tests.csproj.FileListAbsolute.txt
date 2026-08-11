@@ -99,3 +99,6 @@
 /workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/LongestIncreasingSubsequence.Tests/obj/Debug/net10.0/LongestIncreasingSubsequence.Tests.pdb
 /workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/LongestIncreasingSubsequence.Tests/obj/Debug/net10.0/LongestIncreasingSubsequence.Tests.genruntimeconfig.cache
 /workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/LongestIncreasingSubsequence.Tests/obj/Debug/net10.0/ref/LongestIncreasingSubsequence.Tests.dll
+/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/LongestIncreasingSubsequence.Tests/bin/Debug/net10.0/LongestIncreasingSubsequence.deps.json
+/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/LongestIncreasingSubsequence.Tests/bin/Debug/net10.0/LongestIncreasingSubsequence.runtimeconfig.json
+/workspaces/47fac4e0-a8b3-4ea8-9377-84546f46f2bd/LongestIncreasingSubsequence.Tests/bin/Debug/net10.0/LongestIncreasingSubsequence
