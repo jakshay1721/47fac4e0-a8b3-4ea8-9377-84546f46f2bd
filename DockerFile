@@ -1,0 +1,29 @@
+# Stage 1: Build & Test
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+WORKDIR /src
+
+# Copy project files and restore dependencies for optimized caching
+COPY ["LongestIncreasingSubsequence/LongestIncreasingSubsequence.csproj", "LongestIncreasingSubsequence/"]
+COPY ["LongestIncreasingSubsequence.Tests/LongestIncreasingSubsequence.Tests.csproj", "LongestIncreasingSubsequence.Tests/"]
+RUN dotnet restore "LongestIncreasingSubsequence/LongestIncreasingSubsequence.csproj"
+RUN dotnet restore "LongestIncreasingSubsequence.Tests/LongestIncreasingSubsequence.Tests.csproj"
+
+# Copy full source code
+COPY . .
+
+# Run xUnit tests
+FROM build AS testrunner
+WORKDIR /src/LongestIncreasingSubsequence.Tests
+RUN dotnet test --no-restore --logger "console;verbosity=normal"
+
+# Publish the application
+FROM build AS publish
+WORKDIR /src/LongestIncreasingSubsequence
+RUN dotnet publish "LongestIncreasingSubsequence.csproj" -c Release -o /app/publish /p:UseAppHost=false
+
+# Stage 2: Final Runtime Image
+FROM mcr.microsoft.com/dotnet/runtime:8.0 AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
+
+ENTRYPOINT ["dotnet", "LongestIncreasingSubsequence.dll"]

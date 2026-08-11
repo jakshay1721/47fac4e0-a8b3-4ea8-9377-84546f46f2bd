@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: lis-app:latest
+    container_name: lis_app
+
+  test:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: testrunner
+    container_name: lis_tests
